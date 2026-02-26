@@ -94,7 +94,7 @@ const HeroSection = () => {
 
  <div className="absolute flex items-center h-full animate-scroll whitespace-nowrap text-gray-400 font-semibold tracking-widest text-sm md:text-base">
 
-  <div className="flex gap-16 ">
+  {/* <div className="flex gap-16 ">
     <span></span>
     
     <span>REACT</span>
@@ -109,7 +109,7 @@ const HeroSection = () => {
     <span>SOCKET.IO</span>
     
     
-  </div>
+  </div> */}
 
 </div>
 
