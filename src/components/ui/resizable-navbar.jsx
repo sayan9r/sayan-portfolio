@@ -10,6 +10,7 @@ import {
 } from "motion/react";
 
 import React, { useRef, useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 
 export const Navbar = ({
@@ -83,6 +84,7 @@ export const NavItems = ({
   onItemClick
 }) => {
   const [hovered, setHovered] = useState(null);
+  const navigate = useNavigate();
 
   return (
     <motion.div
@@ -94,10 +96,13 @@ export const NavItems = ({
       {items.map((item, idx) => (
         <a
           onMouseEnter={() => setHovered(idx)}
-          onClick={onItemClick}
+          onClick={()=> {
+            onItemClick,
+            navigate(item.link)
+          }}
           className="relative px-4 py-2 text-neutral-600 dark:text-neutral-300"
           key={`link-${idx}`}
-          href={item.link}>
+         >
           {hovered === idx && (
             <motion.div
               layoutId="hovered"

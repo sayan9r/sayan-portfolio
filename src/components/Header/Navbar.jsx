@@ -30,6 +30,10 @@ export function NavbarDemo({user,setUser}) {
       name: "Projects",
       link: "/projects",
     },
+     {
+      name: "Certificate",
+      link: "/certificate",
+    },
   ];
 
   const navigate = useNavigate();  // navigate to route the auth login and sign up
@@ -49,8 +53,7 @@ export function NavbarDemo({user,setUser}) {
           <div className="flex items-center gap-4">
             
               <>
-              <NavbarButton variant="secondary" onClick={() => navigate("/login")}>Login</NavbarButton>
-              <NavbarButton variant="primary" onClick={() => navigate("/signup")}>Sign Up</NavbarButton>
+              <NavbarButton variant="primary" onClick={() => navigate("/signup")}>My Blog</NavbarButton>
               </>
           
           </div>

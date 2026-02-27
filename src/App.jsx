@@ -4,6 +4,7 @@ import Footer from './components/Footer/Footer';
 import { NavbarDemo } from './components/Header/Navbar';
 import Home from './components/Home/Home';
 import Projects from './components/projects/Projects';
+import Certificate from './components/certificiate/Certificate';
 
 function App() {
  
@@ -20,6 +21,7 @@ function App() {
           />  */}
       <Route path="/" element={<Home/>} />
       <Route path ="/projects" element={<Projects/>}/>
+      <Route path='/certificate' element={<Certificate/>}/>
     </Routes>
    </Router>
   )

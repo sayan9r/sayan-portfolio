@@ -62,8 +62,8 @@ export default function Footer({
             </div>
 
             <p className="mt-4 text-m text-gray-400 max-w-xs">
-              GroundMate connects local players and teams for outdoor games. Create matches,
-              join teammates, and share game moments — all in one place.
+              Full-stack web developer passionate about building modern, scalable, and user-friendly applications.
+              <p>Focused on solving real-world problems through clean and efficient code.</p>
             </p>
 
             {/* Contact block (visible on mobile) */}

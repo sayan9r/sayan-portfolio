@@ -3,6 +3,7 @@ import { NavbarDemo } from '../Header/Navbar'
 import Footer from '../Footer/Footer'
 import HeroSection from '../intro/HeroSection'
 import Projects from '../projects/Projects'
+import Certificate from '../certificiate/Certificate'
 
 function Home() {
   return (
@@ -12,6 +13,8 @@ function Home() {
     <HeroSection/>
    <br /><br /><br /><br /><br /><br /><br /><br /><br />
    <Projects/>
+   <br /><br />
+   <Certificate/>
    <Footer/>
    </div>
    </>
