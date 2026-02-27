@@ -48,7 +48,7 @@ function Certificate() {
   return (
     <>
    
-    <div className="min-h-screen w-full bg-gradient-to-t from-white via-[#FF4500] to-gray-950 p-8 md:p-16">
+    <div className="min-h-screen w-full bg-gradient-to-t from-gray-950 via-[#FF4500] to-gray-950 p-8 md:p-16">
       
       <h2 className="text-4xl font-black text-white mb-16 text-center tracking-widest uppercase italic">
         Featured <span className="text-[#FF4500]">Certifications</span>

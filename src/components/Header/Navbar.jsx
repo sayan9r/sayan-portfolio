@@ -38,6 +38,7 @@ export function NavbarDemo({user,setUser}) {
 
   const navigate = useNavigate();  // navigate to route the auth login and sign up
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const [isMoreOpen, setIsMoreOpen] = useState(false);
 
 
 
@@ -50,13 +51,65 @@ export function NavbarDemo({user,setUser}) {
           <NavbarLogo />
           <NavItems items={navItems} />
 
-          <div className="flex items-center gap-4">
-            
-              <>
-              <NavbarButton variant="primary" onClick={() => navigate("/signup")}>My Blog</NavbarButton>
-              </>
-          
-          </div>
+       <div className="flex items-center gap-4 relative">
+
+  {/* My Blog Button */}
+  <NavbarButton
+    variant="primary"
+    onClick={() => navigate("/signup")}
+  >
+    My Blog
+  </NavbarButton>
+    <NavbarButton
+    variant="secondary"
+    onClick={() => setIsMoreOpen(!isMoreOpen)}
+  >
+    |||
+    <span className="w-5 h-[2px] bg-white group-hover:bg-[#FF4500] transition-all"></span>
+    <span className="w-5 h-[2px] bg-white group-hover:bg-[#FF4500] transition-all"></span>
+    <span className="w-5 h-[2px] bg-white group-hover:bg-[#FF4500] transition-all"></span>
+  </NavbarButton>
+
+  {/* Three Line Menu Button */}
+  
+  {/* Dropdown Menu */}
+  {isMoreOpen && (
+    <div className="absolute right-0 top-12 bg-gray-900 border border-[#FF4500]/30 rounded-lg shadow-lg w-48 py-2 z-50">
+
+      <button
+        onClick={() => {
+          navigate("/experience");
+          setIsMoreOpen(false);
+        }}
+        className="w-full text-left px-4 py-2  text-white transition"
+      >
+        Work Experience
+      </button>
+
+      <button
+        onClick={() => {
+          navigate("/journey");
+          setIsMoreOpen(false);
+        }}
+        className="w-full text-left px-4 py-2 text-white transition"
+      >
+        Journey
+      </button>
+
+      <button
+        onClick={() => {
+          navigate("/more");
+          setIsMoreOpen(false);
+        }}
+        className="w-full text-left px-4 py-2 text-white transition"
+      >
+        ...
+      </button>
+
+    </div>
+  )}
+
+</div>
         </NavBody>
 
         {/* Mobile Navigation */}
@@ -81,15 +134,6 @@ export function NavbarDemo({user,setUser}) {
             <div className="flex w-full flex-col gap-4">
               
                 <>
-                <NavbarButton
-                onClick={() => {
-                  navigate("/login"),
-                  setIsMobileMenuOpen(false);
-                }}
-                variant="primary"
-                className="w-full">
-                Login
-              </NavbarButton>
               <NavbarButton
                 onClick={() => {
                   navigate("/signup"),
@@ -97,7 +141,7 @@ export function NavbarDemo({user,setUser}) {
                 }}
                 variant="primary"
                 className="w-full">
-                Sign up
+                My Blog
               </NavbarButton>
                 </>
               

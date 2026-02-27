@@ -4,6 +4,10 @@ import Footer from '../Footer/Footer'
 import HeroSection from '../intro/HeroSection'
 import Projects from '../projects/Projects'
 import Certificate from '../certificiate/Certificate'
+import Tools from '../Tech/Tools'
+import About from '../AboutMe/About'
+import CPDSA2 from '../DSA/CPDSA2'
+
 
 function Home() {
   return (
@@ -11,10 +15,11 @@ function Home() {
    <div className='min-h-screen bg-gray-950'>
     
     <HeroSection/>
-   <br /><br /><br /><br /><br /><br /><br /><br /><br />
+   <About/>
    <Projects/>
-   <br /><br />
+   <CPDSA2/>
    <Certificate/>
+   <Tools/>
    <Footer/>
    </div>
    </>

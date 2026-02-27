@@ -15,8 +15,8 @@ export default function Footer({
   phone = "+91-74072-64892",
   links = [
     { label: "Home", href: "/" },
-    { label: "Find Match", href: "/dashboard/joingame" },
-    { label: "Create Match", href: "/dashboard/creategame" },
+    { label: "Projects", href: "/projects" },
+    { label: "Certificates", href: "/certificate" },
     { label: "About", href: "/about" },
   ],
 }) {
