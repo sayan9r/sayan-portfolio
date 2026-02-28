@@ -33,7 +33,7 @@ function BlogPage() {
     },
     {
       id: 4,
-      title: "JIS - IdeJam",
+      title: "JIS - IdeaJam",
       content:
         "First time on the final Round of a hackathon [JIS_IDEAJAM 2025] was an incredible experience where I built a Crop Prediction system using AI, combining both software and hardware components. 🌱💻 I worked with real sensor data and intelligent models to predict crop outcomes. Reaching the final round made the journey even more rewarding and boosted my confidence as a developer. ",
       image: ideajamImg,
@@ -41,7 +41,7 @@ function BlogPage() {
     },
     {
       id: 5,
-      title: "JIS - IdeJam",
+      title: "JIS - IdeaJam",
       content:
         "Standing at the Dhonno Dhanno Auditorium during the final prize distribution ceremony of my first hackathon was a surreal moment. Presenting my AI-based Crop Prediction project, built with both hardware sensors and software intelligence, felt incredibly rewarding. Being in the presence of inspiring personalities like Aman Gupta, Rajashri Nag, and Manish Pandey made the experience even more memorable. Reaching the final round marked a proud milestone in my journey of building impactful technology. 🚀🌱 ",
       image: ideajamFinalImg,
