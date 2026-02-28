@@ -56,7 +56,7 @@ export function NavbarDemo({user,setUser}) {
   {/* My Blog Button */}
   <NavbarButton
     variant="primary"
-    onClick={() => navigate("/signup")}
+    onClick={() => navigate("/blog")}
   >
     My Blog
   </NavbarButton>
@@ -125,8 +125,12 @@ export function NavbarDemo({user,setUser}) {
             {navItems.map((item, idx) => (
               <a
                 key={`mobile-link-${idx}`}
-                href={item.link}
-                onClick={() => setIsMobileMenuOpen(false)}
+                // onClick={()=> navigate(item.link)}
+                // href={item.link}
+                onClick={() =>{
+                   setIsMobileMenuOpen(false),
+                   navigate(item.link)
+                }}
                 className="relative text-neutral-600 dark:text-neutral-300">
                 <span className="block">{item.name}</span>
               </a>
