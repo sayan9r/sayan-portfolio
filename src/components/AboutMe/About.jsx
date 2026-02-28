@@ -9,7 +9,7 @@ function AboutDetails() {
       value: "Debipur Milan Vidyapith",
     },
     {
-      label: "HS",
+      label: "Course",
       value: "class 5 - Higher secondary education",
     },
     {

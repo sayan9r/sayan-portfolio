@@ -3,6 +3,7 @@ import groundMateImg from "../../assets/groundmate.png"
 import realtimeImg from "../../assets/realtime.png"
 import cropsenseImg from "../../assets/cropsense.png"
 import comingsoonImg from "../../assets/comingsoon.png"
+import portfolioImg from "../../assets/portfolio.png"
 
 
 function Projects() {
@@ -26,8 +27,8 @@ function Projects() {
       link: "https://real-time-tracker-1-62p4.onrender.com" 
     },
     { 
-      title: "Smart Tourist Safety",
-      desc: "IoT-based system designed to enhance tourist safety using sensors.",
+      title: "Farm managment",
+      desc: ".",
       img: comingsoonImg, 
       link: "#" 
     },
@@ -46,8 +47,8 @@ function Projects() {
     { 
       title: "Portfolio 2026",
       desc: "A modern developer portfolio showcasing projects and skills.",
-      img: comingsoonImg, 
-      link: "#" 
+      img: portfolioImg, 
+      link: "https://sayan-portfolio-5ahc.onrender.com/" 
     },
   ];
 

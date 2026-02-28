@@ -60,7 +60,7 @@ export function NavbarDemo({user,setUser}) {
   >
     My Blog
   </NavbarButton>
-    <NavbarButton
+    {/* <NavbarButton
     variant="secondary"
     onClick={() => setIsMoreOpen(!isMoreOpen)}
   >
@@ -70,9 +70,9 @@ export function NavbarDemo({user,setUser}) {
     <span className="w-5 h-[2px] bg-white group-hover:bg-[#FF4500] transition-all"></span>
   </NavbarButton>
 
-  {/* Three Line Menu Button */}
   
-  {/* Dropdown Menu */}
+  
+  
   {isMoreOpen && (
     <div className="absolute right-0 top-12 bg-gray-900 border border-[#FF4500]/30 rounded-lg shadow-lg w-48 py-2 z-50">
 
@@ -107,7 +107,7 @@ export function NavbarDemo({user,setUser}) {
       </button>
 
     </div>
-  )}
+  )} */}
 
 </div>
         </NavBody>
@@ -125,8 +125,6 @@ export function NavbarDemo({user,setUser}) {
             {navItems.map((item, idx) => (
               <a
                 key={`mobile-link-${idx}`}
-                // onClick={()=> navigate(item.link)}
-                // href={item.link}
                 onClick={() =>{
                    setIsMobileMenuOpen(false),
                    navigate(item.link)
@@ -140,7 +138,7 @@ export function NavbarDemo({user,setUser}) {
                 <>
               <NavbarButton
                 onClick={() => {
-                  navigate("/signup"),
+                  navigate("/blog"),
                   setIsMobileMenuOpen(false);
                 }}
                 variant="primary"

@@ -1,4 +1,8 @@
 import React from "react";
+import ideajamImg from "../../assets/ideajam.png"
+import ideajamFinalImg from "../../assets/ideajamFinal.png"
+import kritanj25Img from "../../assets/kritanj25.png"
+import poster_prizeIMg from "../../assets/poster_prize.png"
 
 function BlogPage() {
 
@@ -31,10 +35,33 @@ function BlogPage() {
       id: 4,
       title: "JIS - IdeJam",
       content:
-        "First time on the final Round of a hackathon [JIS_IDEAJAM 2025].Built a crop prediction system both software & hardware . ",
-      image:
-        "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800",
+        "First time on the final Round of a hackathon [JIS_IDEAJAM 2025] was an incredible experience where I built a Crop Prediction system using AI, combining both software and hardware components. 🌱💻 I worked with real sensor data and intelligent models to predict crop outcomes. Reaching the final round made the journey even more rewarding and boosted my confidence as a developer. ",
+      image: ideajamImg,
       date: "28/02/2025",
+    },
+    {
+      id: 5,
+      title: "JIS - IdeJam",
+      content:
+        "Standing at the Dhonno Dhanno Auditorium during the final prize distribution ceremony of my first hackathon was a surreal moment. Presenting my AI-based Crop Prediction project, built with both hardware sensors and software intelligence, felt incredibly rewarding. Being in the presence of inspiring personalities like Aman Gupta, Rajashri Nag, and Manish Pandey made the experience even more memorable. Reaching the final round marked a proud milestone in my journey of building impactful technology. 🚀🌱 ",
+      image: ideajamFinalImg,
+      date: "11/03/2025",
+    },
+    {
+      id: 6,
+      title: "KRITANJ'25",
+      content:
+        "At my college tech fest, I actively participated in multiple hackathons, coding competitions, and fun games, making it an exciting and memorable experience. 💻🎉 Under the leadership of my friend Arban Bhattacharya, our team secured 7th position in the “Code It Duo” competition, which was a proud and motivating achievement. 🏆 We also won stickers and badges, making the experience even more special. This fest strengthened my teamwork, problem-solving skills, and passion for coding. 🚀. ",
+      image: kritanj25Img,
+      date: "21/03/2025",
+    },
+    {
+      id: 7,
+      title: "POSTER PRESENTSTION",
+      content:
+        "secured the 1st position in the Poster Competition organized by the CSE Department under IE(I) during the Engineering Day Celebrations at my college.My poster was on ‘Floating Solar’, highlighting its potential in advancing sustainable and space-efficient renewable energy solutions with much benifits and economical impacts.My postar also have a soft copy that I have attached with the QR code on the poster Grateful for this recognition and the opportunity to contribute to meaningful discussions on innovation and sustainability. 🔗: https://lnkd.in/eES6pEtq ",
+      image: poster_prizeIMg,
+      date: "12/09/2025",
     },
       
   ];
