@@ -7,6 +7,7 @@ import Certificate from '../certificiate/Certificate'
 import Tools from '../Tech/Tools'
 import About from '../AboutMe/About'
 import CPDSA2 from '../DSA/CPDSA2'
+import DevJourney from '../Journey/DevJourney'
 
 
 function Home() {

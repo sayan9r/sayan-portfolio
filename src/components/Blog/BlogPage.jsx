@@ -35,7 +35,7 @@ function BlogPage() {
       id: 4,
       title: "JIS - IdeaJam",
       content:
-        "First time on the final Round of a hackathon [JIS_IDEAJAM 2025] was an incredible experience where I built a Crop Prediction system using AI, combining both software and hardware components. 🌱💻 I worked with real sensor data and intelligent models to predict crop outcomes. Reaching the final round made the journey even more rewarding and boosted my confidence as a developer. ",
+        "First time on the final Round of a hackathon [JIS_IDEAJAM 2025] was an incredible experience where I built a Crop Prediction system using AI, combining both software and hardware components Under the leadership of my friend Anirban Sarkar. 🌱💻 I worked with real sensor data and intelligent models to predict crop outcomes. Reaching the final round made the journey even more rewarding and boosted my confidence as a developer. ",
       image: ideajamImg,
       date: "28/02/2025",
     },

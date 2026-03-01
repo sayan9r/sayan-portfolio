@@ -60,7 +60,7 @@ export function NavbarDemo({user,setUser}) {
   >
     My Blog
   </NavbarButton>
-    {/* <NavbarButton
+    <NavbarButton
     variant="secondary"
     onClick={() => setIsMoreOpen(!isMoreOpen)}
   >
@@ -78,12 +78,12 @@ export function NavbarDemo({user,setUser}) {
 
       <button
         onClick={() => {
-          navigate("/experience");
+          navigate("/projects");
           setIsMoreOpen(false);
         }}
         className="w-full text-left px-4 py-2  text-white transition"
       >
-        Work Experience
+        projects
       </button>
 
       <button
@@ -98,16 +98,25 @@ export function NavbarDemo({user,setUser}) {
 
       <button
         onClick={() => {
-          navigate("/more");
+          navigate("/certificate");
           setIsMoreOpen(false);
         }}
         className="w-full text-left px-4 py-2 text-white transition"
       >
-        ...
+        Certificate
+      </button>
+      <button
+        onClick={() => {
+          navigate("/contact");
+          setIsMoreOpen(false);
+        }}
+        className="w-full text-left px-4 py-2 text-white transition"
+      >
+        Contact Me
       </button>
 
     </div>
-  )} */}
+  )}
 
 </div>
         </NavBody>
@@ -144,6 +153,15 @@ export function NavbarDemo({user,setUser}) {
                 variant="primary"
                 className="w-full">
                 My Blog
+              </NavbarButton>
+              <NavbarButton
+                onClick={() => {
+                  navigate("/journey"),
+                  setIsMobileMenuOpen(false);
+                }}
+                variant="primary"
+                className="w-full">
+                Journey
               </NavbarButton>
                 </>
               
