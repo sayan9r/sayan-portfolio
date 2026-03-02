@@ -8,7 +8,7 @@ const DevJourney = () => {
       title: "Frontend Foundations",
       company: "Learning Phase",
       desc: "Mastered responsive design, CSS architecture, and modern JavaScript.",
-      tags: ["HTML", "CSS3", "JS"]
+      tags: ["HTML", "CSS3", "JS","EJS"]
     },
     {
       year: "2024",

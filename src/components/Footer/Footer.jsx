@@ -21,7 +21,7 @@ export default function Footer({
   ],
 }) {
   return (
-    <footer className="bg-gradient-to-b from-[#000000] via-[#0a0a0a] to-[#1a1a1a] text-gray-200">
+    <footer className="bg-gradient-to-b bg-gray-950 text-gray-200">
       <div className="max-w-7xl mx-auto px-6 py-10 md:py-10">
         <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-8">
           {/* Brand / Logo + short description */}
@@ -57,7 +57,7 @@ export default function Footer({
 
               <div>
                 <div className="text-white text-2xl font-semibold">sayan sahoo</div>
-                <div className="text-m text-gray-300">Think some , Do some...</div>
+                <div className="text-m text-gray-300"> " Think some , Do some... "</div>
               </div>
             </div>
 

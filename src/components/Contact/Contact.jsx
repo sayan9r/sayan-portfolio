@@ -1,5 +1,5 @@
 import React from "react";
-import helloImg from "../../assets/hello.png";
+import contactImg from "../../assets/contact.png";
 import {
   FaGithub,
   FaLinkedin,
@@ -53,13 +53,13 @@ function Contact() {
         </div>
 
         {/* RIGHT SECTION IMAGE */}
-        {/* <div className="flex-1 flex justify-center md:justify-end">
+        <div className="flex-1 flex justify-center md:justify-end">
           <img
-            src={helloImg}
+            src={contactImg}
             alt="hello"
-            className="w-64 md:w-80 rounded-xl   hover:scale-105 transition duration-300"
+            className="w-75 md:w-100 rounded-xl   hover:scale-105 transition duration-300"
           />
-        </div> */}
+        </div>
 
       </div>
 
