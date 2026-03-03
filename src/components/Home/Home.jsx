@@ -9,6 +9,7 @@ import About from '../AboutMe/About'
 import CPDSA2 from '../DSA/CPDSA2'
 import DevJourney from '../Journey/DevJourney'
 import Contact from '../Contact/Contact'
+import Feedback from '../Feedback/Feedback'
 
 
 function Home() {
@@ -24,6 +25,8 @@ function Home() {
    <Tools/>
     <div className="mx-auto mb-10 h-[1px] w-3/4 bg-gradient-to-r from-transparent via-orange-600 to-transparent"></div>
    <Contact/>
+   <div className="mx-auto mb-10 h-[1px] w-3/4 bg-gradient-to-r from-transparent via-orange-600 to-transparent"></div>
+   <Feedback/>
    <div className="mx-auto mb-10 h-[1px] w-3/4 bg-gradient-to-r from-transparent via-orange-600 to-transparent"></div>
    <Footer/>
    </div>
