@@ -7,7 +7,8 @@ import Tools from '../Tech/Tools'
 import About from '../AboutMe/About'
 import CPDSA2 from '../DSA/CPDSA2'
 import Contact from '../Contact/Contact'
-import FeedbackIntro from '../Feedback/FeedBackIntro'
+import Feedbackintro from '../Feedback/FeedbackIntro'
+
 
 
 
@@ -25,7 +26,7 @@ function Home() {
     <div className="mx-auto mb-10 h-[1px] w-3/4 bg-gradient-to-r from-transparent via-orange-600 to-transparent"></div>
    <Contact/>
    <div className="mx-auto mb-10 h-[1px] w-3/4 bg-gradient-to-r from-transparent via-orange-600 to-transparent"></div>
-   <FeedbackIntro/>
+   <Feedbackintro/>
    <div className="mx-auto mb-10 h-[1px] w-3/4 bg-gradient-to-r from-transparent via-orange-600 to-transparent"></div>
    <Footer/>
    </div>
