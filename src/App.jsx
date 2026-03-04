@@ -9,6 +9,7 @@ import About from './components/AboutMe/About';
 import BlogPage from './components/Blog/BlogPage';
 import DevJourney from './components/Journey/DevJourney';
 import Contact from './components/Contact/Contact';
+import Feedback from './components/Feedback/Feedback';
 
 function App() {
  
@@ -30,6 +31,7 @@ function App() {
       <Route path='/certificate' element={<Certificate/>}/>
       <Route path='/blog' element={<BlogPage/>}/>
       <Route path='/journey' element={<DevJourney/>}/>
+      <Route path='/feedback' element={<Feedback/>}/>
     </Routes>
    </Router>
   )

@@ -10,7 +10,7 @@ import {
 
 function Contact() {
   return (
-    <div className="min-h-screen bg-gray-950 text-white flex flex-col items-start px-6 md:px-25 py-16">
+    <div className="min-h-screen bg-gray-950 text-white flex flex-col items-start px-6 md:px-25 py-16 pt-5">
 
       {/* Main Contact Section */}
       <div className="w-full max-w-6xl flex flex-col md:flex-row items-center justify-between gap-10">
@@ -57,7 +57,7 @@ function Contact() {
           <img
             src={contactImg}
             alt="hello"
-            className="w-75 md:w-100 rounded-xl   hover:scale-105 transition duration-300"
+            className="w-75 md:w-100 rounded-xl   hover:scale-105 transition duration-300 pt-15"
           />
         </div>
 

@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios";
 import { API_URL, SUBMIT_RESPONE } from "../../api";
+import { useNavigate } from "react-router-dom";
 
 function Feedback() {
   const [formData, setFormData] = useState({
@@ -8,6 +9,7 @@ function Feedback() {
     email: "",
     message: "",
   });
+  const navigate = useNavigate();
 
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(""); // 🔥 new state
@@ -44,7 +46,7 @@ function Feedback() {
         email: "",
         message: "",
       });
-
+      navigate('/');
     } catch (error) {
       console.error(error);
       setError("Something went wrong!");
