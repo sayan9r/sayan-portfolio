@@ -5,6 +5,7 @@ export const AUTH_BASE = "/api/feedback";
 
 
 // Auth Endpoints
+export const HELLO = `${AUTH_BASE}/hello`
 export const SUBMIT_RESPONE = `${AUTH_BASE}/response`;
 
 

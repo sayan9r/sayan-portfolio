@@ -4,6 +4,10 @@ import { useNavigate } from "react-router-dom";
 
 const HeroSection = () => {
   const navigate = useNavigate();
+  const text =
+    "Building scalable web experiences & intelligent systems with clean code and creative design.";
+
+  const words = text.split(" ");
   return (
     // Changed h-[40vh] to min-h-[50vh] to prevent cutting off content on mobile
     <>
@@ -22,9 +26,19 @@ const HeroSection = () => {
             <h1 className="text-3xl md:text-4xl font-black font-mono tracking-[0.05em] uppercase [word-spacing:-0.15em]">
               Software Developer
             </h1>
-            <p className="text-sm md:text-base text-gray-400 font-mono tracking-wide mt-4">
-              Building scalable web experiences & intelligent systems with clean
-              code and creative design.
+            <p className="text-sm md:text-base text-gray-400 font-mono tracking-wide mt-4 flex flex-wrap gap-1">
+              {words.map((word, index) => (
+                <span
+                  key={index}
+                  className="opacity-0 animate-fadeIn"
+                  style={{
+                    animationDelay: `${index * 0.2}s`,
+                    animationFillMode: "forwards",
+                  }}
+                >
+                  {word}
+                </span>
+              ))}
             </p>
           </div>
 
@@ -99,9 +113,7 @@ const HeroSection = () => {
       <div className="bg-gray-900 w-full h-24 mt-15 relative ">
         <div className="whitespace-nowrap animate-marquee text-gray-800 font-semibold tracking-widest text-sm md:text-base">
           <div className="absolute flex items-center h-full animate-scroll whitespace-nowrap text-gray-400 font-semibold tracking-widest text-sm md:text-base">
-              
-                          
-              {/*   the gap section*/ }
+            {/*   the gap section*/}
           </div>
         </div>
       </div>

@@ -8,11 +8,24 @@ import About from '../AboutMe/About'
 import CPDSA2 from '../DSA/CPDSA2'
 import Contact from '../Contact/Contact'
 import Feedbackintro from '../Feedback/FeedbackIntro'
+import { API_URL, HELLO } from '../../api'
+import { useEffect } from 'react'
 
 
 
 
 function Home() {
+
+    useEffect(() => {
+    fetch(`${API_URL}${HELLO}`)  
+      .then(res => res.text())
+      .then(data => {
+        console.log(data);
+      })
+      .catch(err => console.error(err));
+  }, []);
+
+
   return (
    <>
    <div className='min-h-screen bg-gray-950'>

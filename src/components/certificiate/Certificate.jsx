@@ -14,7 +14,7 @@ function Certificate() {
       link: "https://drive.google.com/file/d/1Qgc519ZvaEg_YNFfCPMbK2X1NgisLJwP/view" 
     },
      { 
-      title: "Poster Compition",
+      title: "Poster Competition",
       desc: "1st position in the poster compition organized by Dept. of CSE , NIT Association with IE(I).",
       img: posterImg, 
       link: "https://drive.google.com/file/d/132ZHMyDqt5cyrIcpqaTAyEvQ6wSb4J4B/view" 
