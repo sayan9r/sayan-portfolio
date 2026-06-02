@@ -3,6 +3,7 @@ import ideajamImg from "../../assets/ideajam.png"
 import ideajamFinalImg from "../../assets/ideajamFinal.png"
 import kritanj25Img from "../../assets/kritanj25.png"
 import poster_prizeIMg from "../../assets/poster_prize.png"
+import INNOVATEXIMAGE from "../../assets/innovatex.png"
 
 function BlogPage() {
 
@@ -57,6 +58,14 @@ function BlogPage() {
     },
     {
       id: 7,
+      title: "INNOVATEX'26",
+      content:
+        "Participating in INNOVATEX'26, the MACKAUT hackathon, was an incredible experience. Our team developed a project focused on Deepfake Detection, combining software and crome Extension components to create an innovative prototype. The event provided a complete ecosystem  to collaborate with talented individuals, Blogs articles , and be aware abot cyber crime . It was a rewarding journey that not only enhanced my technical skills but also fostered teamwork and problem-solving abilities. I'm grateful for the opportunity to be part of such an inspiring event and look forward to future hackathons! 🚀💡",
+      image: INNOVATEXIMAGE,
+      date: "11/05/2025",
+    },
+    {
+      id: 8,
       title: "POSTER PRESENTSTION",
       content:
         "secured the 1st position in the Poster Competition organized by the CSE Department under IE(I) during the Engineering Day Celebrations at my college.My poster was on ‘Floating Solar’, highlighting its potential in advancing sustainable and space-efficient renewable energy solutions with much benifits and economical impacts.My postar also have a soft copy that I have attached with the QR code on the poster Grateful for this recognition and the opportunity to contribute to meaningful discussions on innovation and sustainability. 🔗: https://lnkd.in/eES6pEtq ",

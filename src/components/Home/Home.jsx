@@ -16,7 +16,7 @@ import { useEffect } from 'react'
 
 function Home() {
 
-    useEffect(() => {
+  useEffect(() => {
     fetch(`${API_URL}${HELLO}`)  
       .then(res => res.text())
       .then(data => {

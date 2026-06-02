@@ -2,6 +2,7 @@ import React from 'react';
 import webdevImg from "../../assets/web_dev.png"
 import javaINg from "../../assets/java.png"
 import posterImg from "../../assets/poster.png"
+import ideaJamImg from "../../assets/jis-ideajam.png"
 import comingsoonImg from "../../assets/comingsoon.png"
 
 
@@ -28,8 +29,8 @@ function Certificate() {
     { 
       title: "JIS-IDEAJAM",
       desc: "IoT-based system designed to enhance tourist safety using sensors.",
-      img: comingsoonImg, 
-      link: "#" 
+      img: ideaJamImg, 
+      link: "https://drive.google.com/file/d/1dulWUD18qT2HIASAOz9HjmIP2t63qumC/view?usp=sharing" 
     },
     { 
       title: "SIH INTERNAL",
