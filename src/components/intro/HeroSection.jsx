@@ -56,7 +56,7 @@ const HeroSection = () => {
               variant="outline"
             >
               <a
-                href="https://drive.google.com/file/d/13vk5DULQeQ7E2XtHhgojoXFTcgHmAsV4/view?usp=sharing"
+                href="https://drive.google.com/file/d/10u8qIe5xorzEuau5GrOazM3ugvuzaiWh/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
               >
